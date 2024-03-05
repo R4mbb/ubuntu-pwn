@@ -1,7 +1,7 @@
 #/bin/bash
 
 # Install Packages
-PACK='vim git python3 python3-pip python3-dev libssl-dev libffi-dev build-essential'
+PACK='vim python3 python3-pip python3-dev libssl-dev libffi-dev build-essential'
 apt-get update
 apt-get upgrade -y
 apt-get install -y $PACK
